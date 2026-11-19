@@ -1,0 +1,24 @@
+{
+  "name": "dsh-ui-polish",
+  "version": "0.37.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH client-side polish: animated view-tab switching (no content changes) + a calm-down layer for the maid-atelier skin, configurable in Settings → Plugins. · DSH 客户端微调：标签页切换淡入动画，不改任何对话内容；并为女仆工坊皮肤提供可在设置里逐项开关的降噪层。",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./client/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [],
+      "immediately": true
+    }
+  }
+}
