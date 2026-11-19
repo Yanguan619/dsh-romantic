@@ -23,8 +23,9 @@ import { fileURLToPath } from 'node:url';
 
 export const name = 'dsh-ui-polish';
 
-const LOG = 'C:\\Users\\11315\\OneDrive\\桌面\\Daily\\dsh-ui-polish-host.log';
 const FILE = join(dirname(fileURLToPath(import.meta.url)), '..', 'calm-settings.json');
+// Beside the settings file: the activation trace must not hardcode a machine path.
+const LOG = join(dirname(FILE), 'dsh-ui-polish-host.log');
 const ROUTE = '/dsh-ui-polish/calm';
 
 const DEFAULTS = {
