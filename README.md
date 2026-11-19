@@ -1,7 +1,6 @@
 # dsh-romantic
 
-DeepSeek Harness（DSH）插件市场索引，遵循 **format 1** 规范。`index.json` 就是索引本体，
-DSH 的「插件 → 发现（Discover）」可以直接读取它。
+DeepSeek Harness（DSH）插件市场索引。`index.json` 就是索引本体，。
 
 ## 在 DSH 里使用
 
@@ -11,22 +10,11 @@ DSH 的「插件 → 发现（Discover）」可以直接读取它。
 https://cdn.jsdelivr.net/gh/Yanguan619/dsh-romantic@main/index.json
 ```
 
-推荐用 jsDelivr：带 CDN 缓存，国内可直连。备用地址（需要能直连 GitHub）：
-
-```
-https://raw.githubusercontent.com/Yanguan619/dsh-romantic/main/index.json
-```
-
-索引源会持久保存在 profile 里，重启 DSH 后仍在。
-
 ## 收录的插件
 
 | 包名 | 版本 | 来源 |
 | --- | --- | --- |
-| `dsh-ui-polish` | 0.1.0 | [hiocobueno653-pixel/dsh-ui-polish](https://github.com/hiocobueno653-pixel/dsh-ui-polish) |
-
-`dsh-ui-polish` 的版本钉在提交 `b7210820a18631d8106757f4f6a1456019367cca`，
-安装参数由 DSH 生成：`git+https://github.com/hiocobueno653-pixel/dsh-ui-polish.git#b7210820a18631d8106757f4f6a1456019367cca`。
+| dsh-ui-polish | 0.1.0 | [hiocobueno653-pixel/dsh-ui-polish](https://github.com/hiocobueno653-pixel/dsh-ui-polish) |
 
 ## 新增一条插件
 
