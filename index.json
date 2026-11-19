@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH plugin index",
+    "zh": "DSH 插件索引"
+  },
+  "description": {
+    "en": "A hand-maintained index of DeepSeek Harness plugins, published as a format-1 market index.",
+    "zh": "手工维护的 DeepSeek Harness 插件索引，按 format 1 发布。"
+  },
+  "metadata": {
+    "categories": {
+      "ui": {
+        "title": {
+          "en": "UI Enhancements",
+          "zh": "界面增强"
+        }
+      }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-ui-polish",
+      "title": {
+        "en": "DSH UI Polish",
+        "zh": "DSH 界面打磨"
+      },
+      "description": {
+        "en": "Browser-side polish layer: frosted-glass overlays for menus and pickers, a reasoning-effort slider, and model-picker navigation fixes. Pure CSS/JS, no layout or data changes.",
+        "zh": "浏览器侧注入的界面打磨层：菜单与选择器补毛玻璃浮层、推理强度滑杆、模型选择导航增强。纯前端，不改布局与数据。"
+      },
+      "author": "hiocobueno653-pixel",
+      "homepage": "https://github.com/hiocobueno653-pixel/dsh-ui-polish",
+      "repository": {
+        "url": "https://github.com/hiocobueno653-pixel/dsh-ui-polish"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkRTSCBVSSBQb2xpc2giPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM1YjhjZmYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjOGY1YmZmIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB4PSIzIiB5PSIzIiB3aWR0aD0iNTgiIGhlaWdodD0iNTgiIHJ4PSIxNSIgZmlsbD0idXJsKCNiZykiLz4KICA8cmVjdCB4PSIxMyIgeT0iMTMiIHdpZHRoPSIzOCIgaGVpZ2h0PSIyNSIgcng9IjciIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9IjAuOTMiLz4KICA8cmVjdCB4PSIxMyIgeT0iNDMiIHdpZHRoPSIyNSIgaGVpZ2h0PSI4IiByeD0iNCIgZmlsbD0iI2ZmZmZmZiIgb3BhY2l0eT0iMC43MiIvPgogIDxjaXJjbGUgY3g9IjQ1IiBjeT0iNDciIHI9IjYiIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9IjAuNSIvPgo8L3N2Zz4K",
+      "metadata": {
+        "category": "ui",
+        "keywords": ["dsh", "ui", "polish", "glass", "slider"],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794142301,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/hiocobueno653-pixel/dsh-ui-polish",
+            "commit": "b7210820a18631d8106757f4f6a1456019367cca"
+          },
+          "engines": {}
+        }
+      ]
+    }
+  ]
+}
